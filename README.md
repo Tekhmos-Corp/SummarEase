@@ -9,3 +9,7 @@ SummarEase is an application that, using OpenAIs LLM, it generates summaries and
 We have installed them both via pip (python-pip)
 
 Screenshots:
+ <p align="center">
+
+ <img src="https://github.com/Tekhmos-Corp/SummarEase/assets/90930371/52cea015-e52d-4d1c-bf46-99282c8d5f52"/>
+ </p>
