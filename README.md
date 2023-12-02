@@ -1,2 +1,5 @@
 # SummarEase
-Sumariser and explanator bot
+
+## Libraries
+-PyQt5:
+- 
