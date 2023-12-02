@@ -16,7 +16,7 @@ def get_prompt_answer(text, type):
     print("answer received " + response.choices[0].message.content)
     return response.choices[0].message.content
 
-os.environ['OPENAI_API_KEY'] = "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"
+
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
 class SumarEase(QtWidgets.QMainWindow):
