@@ -17,3 +17,12 @@ Screenshots:
 
  <img src="https://github.com/Tekhmos-Corp/SummarEase/assets/90930371/52cea015-e52d-4d1c-bf46-99282c8d5f52"/>
  </p>
+
+
+Built by:
+- @RogerCL24
+- @FardinA143
+- Arshdeep SK
+- Albert Porta
+
+  
