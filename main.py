@@ -5,15 +5,15 @@ from Ui_SummarEase import Ui_SumarEase
 from openai import OpenAI
 
 def get_prompt_answer(text, type):
-    print("entered chatgpt")
+    
     if type == "summarize":
         prompt = "Summarize: " + text 
     else:
         prompt = "Explain the following: " + text
-    print("prompt ready " + prompt)
+    
     response = client.chat.completions.create(model="gpt-3.5-turbo", temperature=1, max_tokens=40,
                                              messages=[{"role":"system", "content": prompt}])
-    print("answer received " + response.choices[0].message.content)
+    
     return response.choices[0].message.content
 
 
